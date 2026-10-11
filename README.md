@@ -24,11 +24,14 @@ Please search [existing issues](../../issues) first.
 
 Arrow and volume keys repeat while held.
 
+**Disconnect key:** an open connection to the Apple TV can wake a sleeping computer. Add a key set to **Disconnect** and press it before you leave your computer; the next press of any other key reconnects automatically.
+
 ## Troubleshooting
 
 - **Scan finds nothing:** enter the Apple TV's IP address and scan again. Some routers and mesh Wi-Fi systems block automatic discovery.
 - **Pairing failed:** the PIN was wrong or expired. Click **Pair** again for a new PIN.
 - **A key shows a warning triangle:** the Apple TV may be off the network or its IP address changed. Reserve a fixed IP for it in your router, then pair again with **Change Apple TV**.
+- **Your computer wakes from sleep by itself:** press a **Disconnect** key before the computer sleeps. The plugin also closes the connection on its own after the first wake.
 - **"This plugin requires a Mac with Apple Silicon":** the plugin doesn't run on Intel Macs.
 
 - **Windows asks whether to allow network access:** choose **Allow** so the plugin can find and control your Apple TV on your local network.
