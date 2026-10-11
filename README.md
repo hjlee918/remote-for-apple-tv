@@ -37,6 +37,10 @@ When reporting a bug, attach the latest log from:
 ~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/
 ```
 
+## Privacy
+
+The plugin collects no personal data and connects only to your Apple TV on your local network. See the [Privacy Policy](PRIVACY.md).
+
 ## Open-source software
 
 The plugin is built on [pyatv](https://github.com/postlund/pyatv) and other open-source software; see `THIRD_PARTY_NOTICES.txt` inside the plugin. To request the build scripts used to rebuild the bundled helper (for example with a modified LGPL library), open an issue.
