@@ -1,0 +1,41 @@
+name: Bug report
+description: Something isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model and macOS version
+      placeholder: "Mac Studio (M2 Max), macOS 26.1"
+    validations:
+      required: true
+  - type: input
+    id: streamdeck
+    attributes:
+      label: Stream Deck app version and device
+      placeholder: "7.1, Stream Deck MK.2"
+  - type: input
+    id: appletv
+    attributes:
+      label: Apple TV model and tvOS version
+      placeholder: "Apple TV 4K (3rd gen), tvOS 26.6"
+  - type: textarea
+    id: log
+    attributes:
+      label: Plugin log
+      description: Attach or paste the latest file from ~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/
+      render: text
