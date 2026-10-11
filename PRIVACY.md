@@ -5,17 +5,17 @@ Effective date: October 11, 2026.
 
 ## Summary
 
-The plugin does not collect, sell, or share personal data. It does not send anything to us or to any server on the internet. Everything it needs stays on your Mac and travels only between your Mac and your Apple TV on your local network.
+The plugin does not collect, sell, or share personal data. It does not send anything to us or to any server on the internet. Everything it needs stays on your computer and travels only between your computer and your Apple TV on your local network.
 
 ## What the plugin stores, and where
 
-The plugin saves the following in Stream Deck's settings on your Mac:
+The plugin saves the following in Stream Deck's settings on your computer:
 
 - The Apple TV you paired: its name, IP address, and device identifier.
-- The pairing credentials created when you entered the PIN. These let your Mac control the Apple TV without pairing again.
+- The pairing credentials created when you entered the PIN. These let your computer control the Apple TV without pairing again.
 - The button you chose for each key, for example "Up" or "Play/Pause".
 
-This information never leaves your Mac except as described below. To delete it, click **Forget** in a Remote Button's settings, or uninstall the plugin.
+This information never leaves your computer except as described below. To delete it, click **Forget** in a Remote Button's settings, or uninstall the plugin.
 
 ## Network use
 
@@ -28,10 +28,12 @@ The plugin makes no connections to the internet. It contains no analytics, track
 
 ## Logs
 
-Stream Deck keeps a plugin log on your Mac to help diagnose problems:
-`~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/`
+Stream Deck keeps a plugin log on your computer to help diagnose problems:
 
-The log can include your Apple TV's name and IP address and the commands sent. It does not include pairing credentials. The log stays on your Mac unless you choose to share it.
+- macOS: `~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/`
+- Windows: `%APPDATA%\Elgato\StreamDeck\Plugins\com.johnlee.appletvremote.sdPlugin\logs\`
+
+The log can include your Apple TV's name and IP address and the commands sent. It does not include pairing credentials. The log stays on your computer unless you choose to share it.
 
 ## Support requests
 

@@ -11,9 +11,9 @@ Please search [existing issues](../../issues) first.
 
 ## Requirements
 
-- A Mac with Apple Silicon (M1 or later). Intel Macs are not supported.
-- macOS 12 or later and Stream Deck 7.1 or later.
-- An Apple TV on the same network as the Mac.
+- Windows 10 or later, or a Mac with Apple Silicon (M1 or later) running macOS 12 or later. Intel Macs are not supported.
+- Stream Deck 7.1 or later.
+- An Apple TV on the same network as the computer.
 
 ## Setup
 
@@ -31,11 +31,12 @@ Arrow and volume keys repeat while held.
 - **A key shows a warning triangle:** the Apple TV may be off the network or its IP address changed. Reserve a fixed IP for it in your router, then pair again with **Change Apple TV**.
 - **"This plugin requires a Mac with Apple Silicon":** the plugin doesn't run on Intel Macs.
 
+- **Windows asks whether to allow network access:** choose **Allow** so the plugin can find and control your Apple TV on your local network.
+
 When reporting a bug, attach the latest log from:
 
-```
-~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/
-```
+- **macOS:** `~/Library/Application Support/com.elgato.StreamDeck/Plugins/com.johnlee.appletvremote.sdPlugin/logs/`
+- **Windows:** `%APPDATA%\Elgato\StreamDeck\Plugins\com.johnlee.appletvremote.sdPlugin\logs\`
 
 ## Privacy
 
