@@ -1,6 +1,6 @@
 # Remote for Apple TV
 
-Support page for **Remote for Apple TV**, a Stream Deck plugin that turns Stream Deck keys into Apple TV remote buttons. Get it on the [Elgato Marketplace](https://marketplace.elgato.com/).
+Support page for **Remote for Apple TV**, a Stream Deck plugin that turns Stream Deck keys into Apple TV remote buttons. Get it on the [Elgato Marketplace](https://marketplace.elgato.com/product/remote-for-apple-tv-f4c80b88-7b2c-46f3-a1c5-78cfe9dd0130).
 
 ## Get help
 
