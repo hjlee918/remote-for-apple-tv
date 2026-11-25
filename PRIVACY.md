@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Remote for Apple TV** (Stream Deck plugin), published by Artifex.
-Effective date: October 11, 2026.
+Effective date: November 4, 2026.
 
 ## Summary
 
@@ -11,20 +11,21 @@ The plugin does not collect, sell, or share personal data. It does not send anyt
 
 The plugin saves the following in Stream Deck's settings on your computer:
 
-- The Apple TV you paired: its name, IP address, and device identifier.
+- The Apple TVs you paired: their names, IP addresses, and device identifiers.
 - The pairing credentials created when you entered the PIN. These let your computer control the Apple TV without pairing again.
-- The button you chose for each key, for example "Up" or "Play/Pause".
+- What you set up for each key and dial, for example "Up" or "Play/Pause", and, for the keys that use them, the app to open, the text to type, or the link to play.
 
-This information never leaves your computer except as described below. To delete it, click **Forget** in a Remote Button's settings, or uninstall the plugin.
+This information never leaves your computer except as described below. To delete it, click **Forget** next to an Apple TV in a key's or dial's settings, delete the key or dial, or uninstall the plugin.
 
 ## Network use
 
 The plugin communicates only with Apple TVs on your local network:
 
 - **Scan** looks for Apple TVs on your network, or checks the IP address you enter.
-- **Pair** and every key press send commands directly to your Apple TV.
+- **Pair** and every key press or dial turn send commands directly to your Apple TV. To show the app list, what's playing (title and artwork) or the volume, the plugin reads them from your Apple TV.
+- **Play URL** sends the link you entered to your Apple TV, which then plays it. The Apple TV, not the plugin, downloads the video or audio from that address.
 
-The plugin makes no connections to the internet. It contains no analytics, tracking, or advertising.
+The plugin itself makes no connections to the internet. It contains no analytics, tracking, or advertising.
 
 ## Logs
 
